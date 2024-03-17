@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+}
+.welcomepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    background: whitesmoke;
+    padding: 50px;
+}
+.welcomepage button {
+    padding: .5rem;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+.quizepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-top: 70px;
+    padding: 50px;
+    display: none;
+}
+.answerbox {
+    display: flex;
+    flex-direction: column;
+}
+.quizepage button {
+    height: 50px;
+    width: 400px;
+    text-align: start;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+}
+#next {
+    padding: .3rem;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    height: 35px;
+    display: none;
+}
+.correct {
+    background-color: green;
+    color: white;
+    transition: 0.2s;
+}
+.wrong {
+    background-color: red;
+    color: white;
+    transition: 0.2s;
+}
