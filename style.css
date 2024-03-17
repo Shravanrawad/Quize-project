@@ -60,7 +60,7 @@ body {
     color: white;
     transition: 0.2s;
 }
-@media screen (max-width: 400px){
+@media screen (min-width: 380px){
     .quizepage button {
         text-align: center;
     }
